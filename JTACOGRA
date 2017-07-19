@@ -1,0 +1,23 @@
+//http://br.spoj.com/problems/JTACOGRA/
+#include <iostream>
+using namespace std;
+
+int main (){
+	
+	int n, t, v, soma;
+
+	cin >> n;
+
+	soma = 0;
+
+	for (int i=0; i<n; i++){
+		cin >> t >> v;
+		soma += (t*v);
+	}	
+
+	cout << soma << endl;
+
+	
+
+	return 0;
+}
